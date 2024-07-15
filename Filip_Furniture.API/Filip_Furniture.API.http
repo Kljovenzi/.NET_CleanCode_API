@@ -1,0 +1,6 @@
+@Filip_Furniture.API_HostAddress = http://localhost:5291
+
+GET {{Filip_Furniture.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
