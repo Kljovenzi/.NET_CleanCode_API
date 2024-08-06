@@ -1,0 +1,13 @@
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\bin\Debug\net8.0\Filip_Furniture.Domain.deps.json
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\bin\Debug\net8.0\Filip_Furniture.Domain.dll
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\bin\Debug\net8.0\Filip_Furniture.Domain.pdb
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.csproj.AssemblyReference.cache
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.AssemblyInfoInputs.cache
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.AssemblyInfo.cs
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.csproj.CoreCompileInputs.cache
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.sourcelink.json
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.dll
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\refint\Filip_Furniture.Domain.dll
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\Filip_Furniture.Domain.pdb
+C:\GitShowOffCV\.NET\Filip_Furniture.Domain\obj\Debug\net8.0\ref\Filip_Furniture.Domain.dll

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Filip_Furniture.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

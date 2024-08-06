@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "y90PhWRTs42kTA7vXwov8LBihTtzqSPUCkcAvR9tJhbtmGQUf+TSWiBLTSvj2NRHgummuhePQOhkSy+B4jp/yg==",
+  "dgSpecHash": "mRXK7pLyTxyvnwQ/lZUGSQf1BKIc/IAQK1gA5FfWhoHZftKyvH4jYinfXU2lX8lpC9VDB7SzDltc+tsf67Y4hA==",
   "success": true,
   "projectFilePath": "C:\\GitShowOffCV\\.NET\\Filip_Furniture.Domain\\Filip_Furniture.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fnik511758\\.nuget\\packages\\mongodb.bson\\2.28.0\\mongodb.bson.2.28.0.nupkg.sha512",
+    "C:\\Users\\fnik511758\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\fnik511758\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

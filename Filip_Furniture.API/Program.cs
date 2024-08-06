@@ -1,13 +1,12 @@
 using HealthChecks.UI.Client;
-using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Filip_Furniture.Data;
 using Filip_Furniture.Service;
 using Asp.Versioning;
+using Filip_Furniture.Service.Helpers.Implementations;
+using Filip_Furniture.Service.Helpers.Interfaces;
 
 namespace Filip_Furniture.API
 {
@@ -15,8 +14,6 @@ namespace Filip_Furniture.API
     {
         public static void Main(string[] args)
         {
-
-
 
             var builder = WebApplication.CreateBuilder(args);
 
@@ -48,9 +45,16 @@ namespace Filip_Furniture.API
             {
                 builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
             }));
-            builder.Configuration.AddConfiguration(builder.Configuration);
+            //builder.Configuration.AddConfiguration(builder.Configuration);
             builder.Services.AddDataDependencies(builder.Configuration);
             builder.Services.AddServiceDependencies(builder.Configuration);
+
+
+            //builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
+            builder.Services.AddScoped<IRestHelper, RestHelper>();
+
+            builder.Services.AddControllersWithViews();
 
 
             builder.Services.AddApiVersioning(x =>
