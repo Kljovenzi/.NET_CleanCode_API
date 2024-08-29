@@ -2,7 +2,7 @@
 Scalable WEB API with .NET and Mongo DB
 
 Dependencies : 
--Serilog /n
+-Serilog 
   Serilog.Sinks.File
   Serilog.Sinks.Console
   Serilog.Settings.Configuration
